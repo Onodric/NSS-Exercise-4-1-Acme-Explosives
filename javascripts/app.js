@@ -69,7 +69,6 @@ var Rokketzorz = (function (oldRocket){
       });
     });
     let newRow = $("<div>", {class: $tempCat.name, id: "insertRow" });
-    console.log("tempCat: ", $tempCat);
     newRow.addClass('row');
     newRow.html("<h2>" + category + "</h2");
     newRow.appendTo('#insertHere');
@@ -94,9 +93,6 @@ var Rokketzorz = (function (oldRocket){
   return oldRocket;
 
 })(Rokketzorz || {});
-
-function logData(data) {
-}
 
 Promise.all([Rokketzorz.getMyData('data/categories.json'), Rokketzorz.getMyData('data/types.json'), Rokketzorz.getMyData('data/products.json')])
 .then( (allTheStuff) => {
