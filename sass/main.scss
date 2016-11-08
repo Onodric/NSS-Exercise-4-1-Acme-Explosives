@@ -1,0 +1,49 @@
+@import 'template';
+
+#page-foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+}
+
+#page-head {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+}
+
+#wrapper {
+  height: 74vh;
+  overflow-y: auto;
+}
+
+#page-head h1,
+#page-head h2,
+#page-head select {
+  display: inline-block;
+  vertical-align: center;
+}
+
+#page-head select {
+  padding: 1em;
+  margin-top: 3vh;
+}
+
+#page-head h2 {
+  font-weight: bolder;
+}
+
+.prodCard {
+  height: 20vh;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  border: 3px inset $rgb-color-second;
+  box-shadow: 0 .1em .2em $rgb-color-second,
+        inset 0 .1em .2em $rgb-color-second;
+  text-align: center;
+}
+
+.prodCard p {
+  font-size: 2em;
+}
