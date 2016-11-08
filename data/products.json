@@ -1,29 +1,166 @@
 {
   "products": [{
     "fairy_sparklers": {
-        "id": 0,
-        "typeId": 0,
-        "name": "Fairy Sparklers",
-        "description": "Multi-colored sparklers that are safe for any age."
+      "id": 0,
+      "typeId": 0,
+      "name": "Fairy Sparklers",
+      "description": "Multi-colored sparklers that are safe for any age."
     },
-    "dy_no_mite": {
+    "grasshoppers": {
       "id": 1,
-      "typeId": 3,
-      "name": "Dy-No-Mite!",
-      "description": "Sticks of boom. Necessary for any attempts to build a road or kill a road runner."
+      "typeId": 0,
+      "name": "Glowing Grasshoppers",
+      "description": "Multi-colored spinners, safe for any age."
+    },
+    "black_snakes": {
+      "id": 2,
+      "typeId": 0,
+      "name": "Black Mamba",
+      "description": "These are they."
     },
     "oooh_maker": {
-      "id": 2,
+      "id": 3,
       "typeId": 1,
       "name": "The Oooh Maker",
       "description": "Sizzles, sparkles, and kapows its way into every patriotic heart"
     },
-    "charred_stump": {
-      "id": 3,
+    "flowers": {
+      "id": 4,
+      "typeId": 1,
+      "name": "The Aaah Maker",
+      "description": "A perfent complement to the Oooh Maker"
+    },
+    "whistler": {
+      "id": 5,
+      "typeId": 1,
+      "name": "The Whistler",
+      "description": "A whistle while it works, then Kerpow!"
+    },
+    "boyscouts_bane": {
+      "id": 6,
       "typeId": 2,
-      "name": "The Charred Stump",
-      "description": "Extremely short fuse and enough gunpowder to launch a cannonball"
+      "name": "Sparkle Fun Time",
+      "description": "Multi-colored array of magnesium burners."
+    },
+    "firefighters_delight": {
+      "id": 7,
+      "typeId": 2,
+      "name": "Siren Sparkle Fun Time",
+      "description": "Multi-colored array of de-commissioned military ordinance."
+    },
+    "hospitalizer": {
+      "id": 8,
+      "typeId": 2,
+      "name": "Siren Sparkle Fun Time Plus",
+      "description": "a Large multi-colored array of de-commissioned military ordinance."
+    },
+    "dy_no_mite": {
+      "id": 9,
+      "typeId": 3,
+      "name": "Dy-No-Mite!",
+      "description": "A stick of boom. Necessary for any attempts to build a road or kill a road runner."
+    },
+    "bundle": {
+      "id": 10,
+      "typeId": 3,
+      "name": "Bundle of Joy",
+      "description": "Sticks of boom. Necessary for any attempts to keep that bridge out of enemy hands. Or whatever"
+    },
+    "boxes": {
+      "id": 11,
+      "typeId": 3,
+      "name": "Not a Box of Candles",
+      "description": "A necessary component of any movie involving a hero in a dark room."
+    },
+    "unshaped_charge": {
+      "id": 12,
+      "typeId": 4,
+      "name": "Standard C-4 Potato",
+      "description": "Bringing down the house since the late 1950's"
+    },
+    "shaped_charge": {
+      "id": 13,
+      "typeId": 4,
+      "name": "Standard C-4 brick",
+      "description": "Bringing down the house more efficiently since the early 1960's"
+    },
+    "whats_here": {
+      "id": 14,
+      "typeId": 4,
+      "name": "No One Buys Me",
+      "description": "Too much to handle even the largest jobs."
+    },
+    "fuel_air": {
+      "id": 15,
+      "typeId": 5,
+      "name": "Fuel-Air Bomb",
+      "description": "No one talks about our dispersed gasoline incindiary."
+    },
+    "bunkerizer": {
+      "id": 16,
+      "typeId": 5,
+      "name": "The Bunkerizer",
+      "description": "If it wasn't an underground bunker before, it will be after the Bunkerizer. Also good for gophers."
+    },
+    "tactical_strike": {
+      "id": 17,
+      "typeId": 5,
+      "name": "Tactical Strike",
+      "description": "Bikinis? What Atoll?"
+    },
+    "model_rocket": {
+      "id": 18,
+      "typeId": 6,
+      "name": "Lincoln Howdy-doo",
+      "description": "Brings out the astro in all little tots! Great for eggs or hamsters."
+    },
+    "notsomodel_rocket": {
+      "id": 19,
+      "typeId": 6,
+      "name": "Wild Willy",
+      "description": "Who needs guidance fins?."
+    },
+    "rocket_skate": {
+      "id": 20,
+      "typeId": 6,
+      "name": "Jefferson Whoa-ho",
+      "description": "Attach to anything for instant gratification. Includes mounting screws"
+    },
+    "space_x": {
+      "id": 21,
+      "typeId": 7,
+      "name": "Hamm Special",
+      "description": "Guaranteed to launch a chimp into space."
+    },
+    "notsospace_x": {
+      "id": 22,
+      "typeId": 7,
+      "name": "Wilder Willy",
+      "description": "Who needs guidance fins.... again?!"
+    },
+    "rr_runner": {
+      "id": 23,
+      "typeId": 7,
+      "name": "Wile E.'s Choice",
+      "description": "Attach to anything for instant gratification. Includes mounting bolts."
+    },
+    "kanaveral_kicker": {
+      "id": 24,
+      "typeId": 8,
+      "name": "CubeSat Package",
+      "description": "Spy on anyone with our Cubesat Special."
+    },
+    "shuttle": {
+      "id": 25,
+      "typeId": 8,
+      "name": "Atlantis",
+      "description": "Room for 7... and a whole lotta love."
+    },
+    "enterprise": {
+      "id": 26,
+      "typeId": 8,
+      "name": "U.S.S. Enterprise",
+      "description": "Not available until summer 2415."
     }
-
   }]
 }

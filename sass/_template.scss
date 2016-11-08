@@ -1,0 +1,76 @@
+// Include Normalize in the final CSS
+@import 'normalize';
+// Include our fav GoogleFonts
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker|Proza+Libre|Raleway');
+
+// Set up color schema
+  // Hex
+$hex-color-prime: #94ff2c;
+$hex-color-second: #240925;
+$hex-color-tertia: #efd6ff;
+$hex-color-acc-light: #56cc6a;
+$hex-color-acc-dark: #79997e;
+  // rgb
+$rgb-color-prime: rgb(148,255,44);
+$rgb-color-second: rgb(110,61,204);
+$rgb-color-tertia: rgb(239,214,255);
+$rgb-color-acc-light: rgb(86,204,106);
+$rgb-color-acc-dark: rgb(121,153,126);
+
+// Set up font families
+$hw-head-stack: 'Permanent Marker', cursive;
+$hw-body-stack: 'Amatic SC', cursive;
+$prime-stack: 'Raleway', sans-serif;
+$second-stack: 'Proza Libre', sans-serif;
+
+body {
+  width: 100%;
+  font: 1em $prime-stack;
+}
+  
+#wrapper {
+  width: 90%;
+  max-width: 1280px;
+  background: $hex-color-tertia;
+  padding: 8em 2.5% 2em 2.5%;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  h1, h2, h3, h4, h5 {
+    font-family: $hw-head-stack;
+    // font-weight: bold;
+  }
+}
+
+#page-head {
+  width: 100%;
+  position: fixed;
+  background: $hex-color-prime;
+  color: $rgb-color-second;
+  box-shadow: inset 0 0 3em $rgb-color-acc-dark;
+
+  h1 {
+    color: $rgb-color-acc-light;
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: -.25em;
+    margin-top: .5em;
+    text-shadow: .05em -.05em .1em $rgb-color-second;
+  }
+}
+
+#page-foot {
+  width: 100%;
+  // position: fixed;
+  background: $hex-color-prime;
+  color: $rgb-color-second;
+  box-shadow: inset 0 0 3em $rgb-color-acc-dark;
+  text-align: center;
+  padding: 1em;
+
+  p {
+    font-weight: bold;
+    margin: auto;
+  }
+}
+
